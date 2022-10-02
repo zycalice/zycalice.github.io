@@ -149,7 +149,7 @@ exclude:
 keep_files:
   - .git
   - .svn
-encoding: "utf-8"
+encoding: "UTF-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 
@@ -170,42 +170,30 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
 
 
 # Collections
 collections:
   teaching:
     output: true
-    permalink: /:collection/:path/
+    permalink: /:collection/path/
   publications:
     output: true
-    permalink: /:collection/:path/
+    permalink: /:collection/path/
   portfolio:
     output: true
-    permalink: /:collection/:path/
+    permalink: /:collection/path/
   talks:
     output: true
-    permalink: /:collection/:path/
+    permalink: /:collection/path/
 
 
 # Defaults
 defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
   # _pages
   - scope:
       path: ""
-      type: pages
+      type: liquid
     values:
       layout: single
       author_profile: true
@@ -279,7 +267,7 @@ whitelist:
 #  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
 #  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
 #  Path (examples)
-#  - Archive page should exist at path when using Liquid method or you can
+#  - Archive page should exist at path when using Liquid method, or you can
 #    expect broken links (especially with breadcrumbs enabled)
 #  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
 #  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/

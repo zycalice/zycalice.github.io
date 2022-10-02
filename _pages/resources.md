@@ -2,21 +2,17 @@
 title: "Resources"
 permalink: /resources/
 author_profile: true
-redirect_from: 
-  - /resources/
 ---
 
-Math
-======
-
-### [Linear Algebra and Statistics]
+### Math
+#### Linear Algebra and Statistics
 - Matrix Calculus: [https://atmos.washington.edu/~dennis/MatrixCalculus.pdf](https://atmos.washington.edu/~dennis/MatrixCalculus.pdf)
 - CTT: [https://sphweb.bumc.bu.edu/otlt/mph-modules/bs/bs704_probability/BS704_Probability12.html](https://sphweb.bumc.bu.edu/otlt/mph-modules/bs/bs704_probability/BS704_Probability12.html)
 - CLT: [https://www.me.psu.edu/cimbala/me345/Lectures/Central_Limit_Theorem.pdf](https://www.me.psu.edu/cimbala/me345/Lectures/Central_Limit_Theorem.pdf)
 - Regression to mean and how to remove it: [https://www.iwh.on.ca/what-researchers-mean-by/regression-to-mean](https://www.iwh.on.ca/what-researchers-mean-by/regression-to-mean)
 
 
-### [Statistical Machine Learning]
+### Statistical Machine Learning
 ##### Linear Regression and Logistic Regression
 - Pearson and Spearman Correlation Comparison: [https://support.minitab.com/en-us/minitab-express/1/help-and-how-to/modeling-statistics/regression/supporting-topics/basics/a-comparison-of-the-pearson-and-spearman-correlation-methods/](https://support.minitab.com/en-us/minitab-express/1/help-and-how-to/modeling-statistics/regression/supporting-topics/basics/a-comparison-of-the-pearson-and-spearman-correlation-methods/)
 - Logistic regression: [https://stats.idre.ucla.edu/other/mult-pkg/faq/general/faq-how-do-i-interpret-odds-ratios-in-logistic-regression/](https://stats.idre.ucla.edu/other/mult-pkg/faq/general/faq-how-do-i-interpret-odds-ratios-in-logistic-regression/)
@@ -42,7 +38,7 @@ Math
 - Auto-encoder using label information: [https://jmlr.csail.mit.edu/papers/volume13/snoek12a/snoek12a.pdf](https://jmlr.csail.mit.edu/papers/volume13/snoek12a/snoek12a.pdf)
 
 
-### [Deep Learning]
+### Deep Learning
 #### Encoder Decoder
 - Encoder and Decoder with Attention: [https://bastings.github.io/annotated_encoder_decoder/](https://bastings.github.io/annotated_encoder_decoder/)
 - Decoding methods: [https://towardsdatascience.com/decoding-strategies-that-you-need-to-know-for-response-generation-ba95ee0faadc](https://towardsdatascience.com/decoding-strategies-that-you-need-to-know-for-response-generation-ba95ee0faadc)
@@ -58,20 +54,20 @@ Math
 - Bandit algorithm: [https://tor-lattimore.com/downloads/book/book.pdf](https://tor-lattimore.com/downloads/book/book.pdf)
 - Visual Question Answering: [https://visualqa.org/](https://visualqa.org/)
 
-### [Optimization]
+### Optimization
 #### Convex optimization
 - Lagrangian Duality: [https://www-cs.stanford.edu/people/davidknowles/lagrangian_duality.pdf](https://www-cs.stanford.edu/people/davidknowles/lagrangian_duality.pdf)
 #### Gradient Descent
 - UBC: [https://www.cs.ubc.ca/~schmidtm/Courses/540-W18/L4.pdf](https://www.cs.ubc.ca/~schmidtm/Courses/540-W18/L4.pdf)
 - Berkeley: [https://people.eecs.berkeley.edu/~jordan/kernels/0521813972c03_p47-84.pdf](https://people.eecs.berkeley.edu/~jordan/kernels/0521813972c03_p47-84.pdf)
 
-### [Model Explanations and Interpretable ML]
+### Model Explanations and Interpretable ML
 - LIME: [https://homes.cs.washington.edu/~marcotcr/blog/lime/](https://homes.cs.washington.edu/~marcotcr/blog/lime/)
 - LIME Paper: [https://arxiv.org/pdf/1602.04938v1.pdf](https://arxiv.org/pdf/1602.04938v1.pdf)
 - LIME GitHub: [https://github.com/marcotcr/lime](https://github.com/marcotcr/lime)
 - LIME Tutorial: [https://marcotcr.github.io/lime/tutorials/Lime%20-%20basic%20usage%2C%20two%20class%20case.html](https://marcotcr.github.io/lime/tutorials/Lime%20-%20basic%20usage%2C%20two%20class%20case.html)
 - Interpretable ML: [https://christophm.github.io/interpretable-ml-book/limo.html](https://christophm.github.io/interpretable-ml-book/limo.html)
 
-### [NLP]
+### NLP
 #### Tokenizers
 - HuggingFace Tokenizers: [https://huggingface.co/docs/tokenizers/pipeline](https://huggingface.co/docs/tokenizers/pipeline)
