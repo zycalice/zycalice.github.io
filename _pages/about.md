@@ -1,5 +1,5 @@
 ---
-title: "About me"
+title: ""
 permalink: /
 excerpt: "This is Yuchen Zhang's personal website."
 author_profile: true

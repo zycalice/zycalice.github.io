@@ -1,5 +1,5 @@
 ---
-title: "Resources"
+title: ""
 permalink: /resources/
 author_profile: true
 layout: archive
@@ -46,13 +46,15 @@ Encoder Decoder
 - [Encoder and Decoder with Attention](https://bastings.github.io/annotated_encoder_decoder/)
 - [Decoding methods](https://towardsdatascience.com/decoding-strategies-that-you-need-to-know-for-response-generation-ba95ee0faadc)
 - [Transformer - Implementation of paper "Attention is All You Need](http://nlp.seas.harvard.edu/2018/04/03/attention.html#positional-encoding)
-NLP Applications:
+
+NLP Applications
 - [NLP and argument](https://www.aclweb.org/anthology/P16-5002/)
 - [NLP and persuasion](https://nlds.soe.ucsc.edu/persuasion_persona)
 - [Seq to Seq and Translation for NLP](https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html)
 - [N-gram](https://web.stanford.edu/~jurafsky/slp3/3.pdf)
 - [Eigenwords](https://jmlr.csail.mit.edu/papers/volume16/dhillon15a/dhillon15a.pdf)
 - [Latent Dirtchlet Allocation/Topic Modeling](https://www.cl.cam.ac.uk/teaching/1213/L101/clark_lectures/lect7.pdf)
+
 Other applications
 - [Bandit algorithm](https://tor-lattimore.com/downloads/book/book.pdf)
 - [Visual Question Answering](https://visualqa.org/)
