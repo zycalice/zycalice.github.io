@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Experience"
 permalink: /experience/
 author_profile: true
 layout: archive
@@ -12,22 +12,22 @@ layout: archive
 * M.S. in Engineering, Data Science, University of Pennsylvania, 2020 - 2022
 
 ### Work experience
-* 2022 - : Software Engineer, ML/Research Engineer
+* Software Engineer, ML/Research Engineer, 2022 - Present
   * Meta AI
   * Duties included: large models
   
-* 2021 - : NLP Researcher/Engineer
+* NLP Researcher/Engineer, 2021 - Present
   * Claudius Legal Intelligence
   * Duties included: multi-label multi-class injury category classification; NER model as a eval 
   task while fine-tuning BERT and a Claudius model
 
-* 2017 - 2020: Researcher/Analyst
+* Researcher/Analyst, 2017 - 2020
   * NERA Economic Consulting
   * Duties included: expert opinion research and analysis in securities and finance 
   disputes
   
 
 ### Teaching Assistance
-* 2022 - : Teaching Assistant
+* Teaching Assistant, 2022 - Present
   * University of Pennsylvania, Course CIS521 Artificial Intelligence
   * Duties included: lead home recitation, host office hours, answer posted student questions
