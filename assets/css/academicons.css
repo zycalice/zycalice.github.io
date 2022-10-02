@@ -20,7 +20,7 @@
 	font:normal normal normal 14px/1 Academicons;
 	font-size:inherit;
 	text-rendering:auto;
-	-webkit-backface-visibility: inherit;
+	-webkit-backface-visibility: hidden;
 	-webkit-transform:translate3d(0,0,0);
 	-webkit-font-smoothing:antialiased;
 	-moz-osx-font-smoothing:grayscale;
