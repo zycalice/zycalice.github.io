@@ -49,6 +49,16 @@ staticman:
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
+# Defaults
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
 # SEO Related
 google_site_verification :
 bing_site_verification   :
