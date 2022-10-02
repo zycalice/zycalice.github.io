@@ -3,7 +3,6 @@ title: "About me"
 permalink: /
 excerpt: "This is Yuchen Zhang's personal website."
 author_profile: true
-layout: default
 redirect_from: 
   - /about/
   - /about.html
