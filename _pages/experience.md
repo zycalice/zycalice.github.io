@@ -3,8 +3,7 @@ title: "Experience"
 permalink: /experience/
 author_profile: true
 redirect_from:
-  - /experience/ 
-  - /experience.html
+  - /experience/
 ---
 
 {% include base_path %}
