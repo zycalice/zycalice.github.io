@@ -4,6 +4,7 @@ permalink: /resources/
 author_profile: true
 ---
 
+
 ### Math
 #### Linear Algebra and Statistics
 - Matrix Calculus: [https://atmos.washington.edu/~dennis/MatrixCalculus.pdf](https://atmos.washington.edu/~dennis/MatrixCalculus.pdf)

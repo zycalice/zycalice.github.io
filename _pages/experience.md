@@ -4,7 +4,6 @@ permalink: /experience/
 author_profile: true
 ---
 
-{% include base_path %}
 
 # Education
 * B.B.A. in Information Systems and Operations Management, Emory University, 2013 - 2017
