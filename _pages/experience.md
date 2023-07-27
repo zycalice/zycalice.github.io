@@ -16,7 +16,7 @@ layout: archive
 ### Work experience
 * Software Engineer, ML/Research Engineer, 2022 - Present
   * Meta AI
-  * Duties included: large models rai and evaluations
+  * Duties included: large language models rai and evaluations
   
 * NLP Researcher/Engineer, 2021 - 2022
   * Claudius Legal Intelligence
