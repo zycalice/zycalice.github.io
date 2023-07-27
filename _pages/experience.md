@@ -16,9 +16,9 @@ layout: archive
 ### Work experience
 * Software Engineer, ML/Research Engineer, 2022 - Present
   * Meta AI
-  * Duties included: large models
+  * Duties included: large models rai and evaluations
   
-* NLP Researcher/Engineer, 2021 - Present
+* NLP Researcher/Engineer, 2021 - 2022
   * Claudius Legal Intelligence
   * Duties included: multi-label multi-class injury category classification; NER model as a eval 
   task while fine-tuning BERT and a Claudius model
