@@ -19,6 +19,6 @@ Currently, I am a Software Engineer (Machine Learning)/Research Engineer at Meta
 
 
 # Reviewer
-NeurIPS 2023 Workshop SoLaR
-COLM Ethics Reviewer
+* NeurIPS 2023 Workshop SoLaR
+* COLM Ethics Reviewer
 
