@@ -16,3 +16,9 @@ algorithms should benefit the public in a fair way.
 
 Currently, I am a Software Engineer (Machine Learning)/Research Engineer at Meta AI, working on large 
 (language/multimodal) model training and scaling, as well as Responsible AI in large models.
+
+
+# Reviewer
+NeurIPS 2023 Workshop SoLaR
+COLM Ethics Reviewer
+
