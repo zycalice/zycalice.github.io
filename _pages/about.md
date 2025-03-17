@@ -14,8 +14,8 @@ algorithm theories. I am also passionate about detecting algorithm bias and deve
 are fair. I care deeply about science for social good and believe that our research in technology and 
 algorithms should benefit the public in a fair way. 
 
-Currently, I am a Software Engineer (Machine Learning)/Research Engineer at Meta AI, working on large 
-(language/multimodal) model training and scaling, as well as Responsible AI in large models.
+Currently, I am a Software Engineer (Machine Learning)/Research Engineer at [Meta FAIR then GenAI], currently working mainly on large 
+(language/multimodal) model Responsible AI mitigations and evaluations.
 
 
 # Reviewer
