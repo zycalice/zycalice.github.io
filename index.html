@@ -40,7 +40,7 @@
             flex: 1;
             margin-left: 350px;
             padding: 40px;
-            background: #2c3e50;
+            background: #ffffff;
         }
 
         .profile-section {
@@ -189,33 +189,53 @@
             border-radius: 2px;
         }
 
-        .skills-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 25px;
+        .publications-list {
             margin-top: 30px;
         }
 
-        .skill-item {
-            background: linear-gradient(135deg, #f8f9fa, #e9ecef);
-            padding: 25px;
-            border-radius: 15px;
-            text-align: center;
+        .publication-item {
+            background: #f8f9fa;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 25px;
             transition: all 0.3s ease;
-            border: 1px solid rgba(0, 0, 0, 0.05);
+            border: 1px solid #e9ecef;
+            border-left: 4px solid #2c3e50;
         }
 
-        .skill-item:hover {
-            transform: translateY(-5px);
-            background: linear-gradient(135deg, #667eea, #764ba2);
-            color: white;
-            box-shadow: 0 15px 30px rgba(102, 126, 234, 0.3);
+        .publication-item:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            border-left-color: #34495e;
         }
 
-        .skill-item h3 {
+        .publication-item h3 {
+            color: #2c3e50;
             margin-bottom: 15px;
-            color: inherit;
             font-size: 1.3em;
+            font-weight: 500;
+            line-height: 1.4;
+        }
+
+        .publication-details {
+            color: #555;
+            font-size: 0.95em;
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+
+        .publication-details strong {
+            color: #2c3e50;
+            font-weight: 600;
+        }
+
+        .publication-abstract {
+            color: #666;
+            font-size: 1em;
+            line-height: 1.7;
+            font-style: italic;
+            padding-top: 10px;
+            border-top: 1px solid #e9ecef;
         }
 
         .about-text {
@@ -322,11 +342,6 @@
 
         <!-- Main Content -->
         <div class="main-content">
-            <!-- Introduction -->
-            <div class="card">
-                <p class="intro-text">Welcome to my personal portfolio! I'm a passionate developer who loves creating beautiful and functional web experiences. I specialize in modern web technologies and enjoy bringing creative ideas to life through clean code and intuitive design.</p>
-            </div>
-
             <!-- About Section -->
             <div class="card">
                 <h2>About Me</h2>
@@ -337,28 +352,11 @@
                 </div>
             </div>
 
-            <!-- Publications Section -->
             <div class="card">
                 <h2>Publications</h2>
-                <div class="skills-grid">
-                    <div class="skill-item">
-                        <h3>Frontend Development</h3>
-                        <p>HTML5, CSS3, JavaScript ES6+, React, Vue.js, TypeScript</p>
-                    </div>
-                    <div class="skill-item">
-                        <h3>Backend Development</h3>
-                        <p>Node.js, Python, Express.js, REST APIs, GraphQL</p>
-                    </div>
-                    <div class="skill-item">
-                        <h3>Database & Cloud</h3>
-                        <p>MongoDB, PostgreSQL, Firebase, AWS, Docker</p>
-                    </div>
-                    <div class="skill-item">
-                        <h3>Design & Tools</h3>
-                        <p>Figma, Adobe XD, Git, Webpack, CI/CD</p>
-                    </div>
+                <div class="publications-text">
+                    <p></p>
                 </div>
-            </div>
 
             <!-- Experience Section -->
             <div class="card">
