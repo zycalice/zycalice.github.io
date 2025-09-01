@@ -118,6 +118,12 @@
 
         .section {
             margin-bottom: 40px;
+            padding-bottom: 25px;
+            border-bottom: 1px solid #e5e5e5;
+        }
+
+        .section:last-child {
+            border-bottom: none;
         }
 
         h2 {
@@ -288,7 +294,6 @@
             loadMarkdown('about.md', 'about-content');
             loadMarkdown('publications.md', 'publications-content');
             loadMarkdown('education.md', 'education-content');
-            loadMarkdown('experience.md', 'experience-content');
             loadMarkdown('projects.md', 'projects-content');
         });
     </script>
