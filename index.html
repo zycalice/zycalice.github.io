@@ -290,6 +290,14 @@
                 </div>
             </div>
 
+            <!-- About Section -->
+            <div class="card">
+                <h2>About</h2>
+                <div id="education-content" class="markdown-content">
+                    <div class="loading">Loading about content...</div>
+                </div>
+            </div>
+
             <!-- Publications Section -->
             <div class="card">
                 <h2>Publications</h2>
@@ -337,6 +345,7 @@
         document.addEventListener('DOMContentLoaded', function() {
             loadMarkdown('about.md', 'about-content');
             loadMarkdown('publications.md', 'publications-content');
+            loadMarkdown('education.md', 'education-content');
             loadMarkdown('experience.md', 'experience-content');
             loadMarkdown('projects.md', 'projects-content');
         });
