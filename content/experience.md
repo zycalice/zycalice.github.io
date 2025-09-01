@@ -1,4 +1,4 @@
-### Work experience
+**Work experience**
 * Meta, Research Engineer, 2022 - Present
   * Llama 2+; Trust and Safety, evaluations
 
@@ -9,7 +9,7 @@
 * NERA Economic Consulting, Researcher/Analyst, 2017 - 2020
   * Expert opinion research and analysis in securities and finance disputes
 
-### Teaching Assistance (2022 - 2024)
+**Teaching Assistance (2022 - 2024)**
 * University of Pennsylvania, CIS521 Artificial Intelligence
   * Lead home recitation, host office hours, answer posted student questions
 
