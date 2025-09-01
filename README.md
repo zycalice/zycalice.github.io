@@ -1,1 +1,1 @@
-# personal-website in html format
+# Yuchen Zhang's personal website
