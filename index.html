@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yuchen Zhang - Personal Page</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.3.0/marked.min.js"></script>
     <style>
         * {
             margin: 0;
@@ -12,7 +13,7 @@
         }
 
         body {
-            font-family: 'Arial', sans-serif;
+            font-family: 'Georgia', serif;
             line-height: 1.6;
             color: #333;
             background: #ffffff;
@@ -25,271 +26,204 @@
         }
 
         .sidebar {
-            width: 350px;
-            background: white;
+            width: 300px;
+            background: #f8f9fa;
             color: #333;
-            padding: 40px 30px;
+            padding: 30px 25px;
             position: fixed;
             height: 100vh;
             overflow-y: auto;
-            box-shadow: 5px 0 20px rgba(0, 0, 0, 0.1);
-            border-right: 1px solid #e9ecef;
+            border-right: 1px solid #e0e0e0;
         }
 
         .main-content {
             flex: 1;
-            margin-left: 350px;
-            padding: 40px;
+            margin-left: 300px;
+            padding: 30px 40px;
             background: #ffffff;
         }
 
         .profile-section {
             text-align: center;
-            margin-bottom: 40px;
+            margin-bottom: 30px;
         }
 
-        .profile-img {
-            width: 180px;
-            height: 180px;
+        .profile-img-photo {
+            width: 140px;
+            height: 140px;
             border-radius: 50%;
-            background: linear-gradient(135deg, #667eea, #764ba2);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 0 auto 25px;
-            font-size: 70px;
-            color: white;
-            font-weight: bold;
-            border: 4px solid #2c3e50;
-            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
-            transition: transform 0.3s ease;
-        }
-
-        .profile-img:hover {
-            transform: scale(1.05);
+            object-fit: cover;
+            margin: 0 auto 20px;
+            border: 2px solid #ddd;
+            display: block;
         }
 
         .sidebar h1 {
-            font-size: 2.2em;
-            font-weight: 300;
-            margin-bottom: 10px;
+            font-size: 1.8em;
+            font-weight: 400;
+            margin-bottom: 5px;
             color: #2c3e50;
         }
 
         .sidebar .title {
-            font-size: 1.1em;
-            margin-bottom: 30px;
-            color: #7f8c8d;
+            font-size: 1em;
+            margin-bottom: 25px;
+            color: #666;
             font-weight: 300;
         }
 
-        .contact-section {
-            margin-bottom: 40px;
+        .contact-section, .quick-info {
+            margin-bottom: 25px;
         }
 
-        .contact-section h3 {
-            font-size: 1.3em;
-            margin-bottom: 20px;
-            color: #2c3e50;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            font-weight: 400;
-        }
-
-        .contact-item {
-            margin-bottom: 20px;
-            padding: 15px;
-            background: #f8f9fa;
-            border-radius: 12px;
-            border: 1px solid #e9ecef;
-            transition: all 0.3s ease;
-        }
-
-        .contact-item:hover {
-            transform: scale(1.05);
-        }
-
-        .contact-item strong {
-            display: block;
-            font-size: 0.9em;
-            margin-bottom: 5px;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            opacity: 0.8;
-        }
-
-        .contact-item span {
-            font-size: 1em;
-            word-break: break-all;
-        }
-
-        .quick-info {
-            margin-bottom: 30px;
-        }
-
-        .quick-info h3 {
-            font-size: 1.3em;
-            margin-bottom: 20px;
-            color: #2c3e50;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            font-weight: 400;
-        }
-
-        .info-item {
+        .contact-section h3, .quick-info h3 {
+            font-size: 1.1em;
             margin-bottom: 15px;
-            padding: 12px;
-            background: #f8f9fa;
-            border-radius: 10px;
-            border: 1px solid #e9ecef;
+            color: #2c3e50;
+            font-weight: 500;
+            border-bottom: 1px solid #e0e0e0;
+            padding-bottom: 5px;
         }
 
-        .info-item strong {
+        .contact-item, .info-item {
+            margin-bottom: 12px;
+            padding: 8px 0;
+        }
+
+        .contact-item strong, .info-item strong {
             display: block;
             font-size: 0.9em;
             margin-bottom: 3px;
-            color: #2c3e50;
+            color: #555;
+            font-weight: 600;
+        }
+
+        .contact-item span {
+            font-size: 0.9em;
+            word-break: break-all;
+            color: #666;
         }
 
         .card {
             background: white;
-            border-radius: 20px;
-            padding: 40px;
-            margin: 0 0 30px 0;
-            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            border: 1px solid rgba(0, 0, 0, 0.05);
-        }
-
-        .card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+            border-radius: 8px;
+            padding: 30px;
+            margin: 0 0 25px 0;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            border: 1px solid #e0e0e0;
         }
 
         .main-content h2 {
             color: #2c3e50;
-            margin-bottom: 25px;
-            font-size: 2.2em;
-            position: relative;
-            padding-bottom: 15px;
-            font-weight: 300;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+            font-weight: 400;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 8px;
         }
 
-        .main-content h2::after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 60px;
-            height: 3px;
-            background: linear-gradient(45deg, #667eea, #764ba2);
-            border-radius: 2px;
-        }
-
-        .publications-list {
-            margin-top: 30px;
-        }
-
-        .publication-item {
-            background: #f8f9fa;
-            padding: 30px;
-            border-radius: 10px;
-            margin-bottom: 25px;
-            transition: all 0.3s ease;
-            border: 1px solid #e9ecef;
-            border-left: 4px solid #2c3e50;
-        }
-
-        .publication-item:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-            border-left-color: #34495e;
-        }
-
-        .publication-item h3 {
-            color: #2c3e50;
-            margin-bottom: 15px;
-            font-size: 1.3em;
-            font-weight: 500;
-            line-height: 1.4;
-        }
-
-        .publication-details {
-            color: #555;
-            font-size: 0.95em;
-            margin-bottom: 15px;
-            line-height: 1.6;
-        }
-
-        .publication-details strong {
-            color: #2c3e50;
-            font-weight: 600;
-        }
-
-        .publication-abstract {
-            color: #666;
+        .about-text, .markdown-content {
             font-size: 1em;
             line-height: 1.7;
+            color: #555;
+        }
+
+        .about-text p, .markdown-content p {
+            margin-bottom: 15px;
+        }
+
+        .about-text strong, .markdown-content strong {
+            color: #2c3e50;
+        }
+
+        .publications-text a {
+            color: #2c3e50;
+            text-decoration: underline;
+            font-size: 1em;
+        }
+
+        .publications-text a:hover {
+            color: #1a252f;
+        }
+
+        /* Markdown-specific styling */
+        .markdown-content h1, .markdown-content h2, .markdown-content h3 {
+            color: #2c3e50;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        .markdown-content ul, .markdown-content ol {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        .markdown-content li {
+            margin-bottom: 5px;
+        }
+
+        .markdown-content blockquote {
+            border-left: 4px solid #2c3e50;
+            padding-left: 15px;
+            margin: 15px 0;
+            color: #666;
             font-style: italic;
-            padding-top: 10px;
-            border-top: 1px solid #e9ecef;
         }
 
-        .about-text {
-            font-size: 1.1em;
-            line-height: 1.8;
-            color: #555;
+        .markdown-content code {
+            background: #f8f9fa;
+            padding: 2px 4px;
+            border-radius: 3px;
+            font-family: 'Monaco', 'Consolas', monospace;
+            font-size: 0.9em;
         }
 
-        .intro-text {
-            font-size: 1.2em;
-            line-height: 1.8;
-            color: #555;
-            text-align: center;
-            max-width: 800px;
-            margin: 0 auto;
+        .markdown-content pre {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 15px 0;
         }
 
-        @media (max-width: 1024px) {
-            .sidebar {
-                width: 300px;
-            }
-            
-            .main-content {
-                margin-left: 300px;
-                padding: 30px;
-            }
+        .loading {
+            color: #666;
+            font-style: italic;
+        }
+
+        .error {
+            color: #d9534f;
+            font-style: italic;
         }
 
         @media (max-width: 768px) {
             .layout {
                 flex-direction: column;
             }
-            
+
             .sidebar {
                 width: 100%;
                 height: auto;
                 position: relative;
-                padding: 30px 20px;
+                padding: 25px 20px;
             }
-            
+
             .main-content {
                 margin-left: 0;
                 padding: 20px;
             }
-            
-            .profile-img {
-                width: 140px;
-                height: 140px;
-                font-size: 56px;
+
+            .profile-img-photo {
+                width: 120px;
+                height: 120px;
             }
-            
+
             .sidebar h1 {
-                font-size: 1.8em;
+                font-size: 1.6em;
             }
-            
+
             .card {
-                padding: 25px;
+                padding: 20px;
             }
         }
     </style>
@@ -305,22 +239,22 @@
             </div>
 
             <div class="quick-info">
-                <h3>Quick Info</h3>
+                <h3>Info</h3>
                 <div class="info-item">
                     <strong>Location</strong>
                     San Francisco, CA
                 </div>
                 <div class="info-item">
                     <strong>Interests</strong>
-                    Safe Machine learning, Natural Language Processing, Logic, Information theory
+                    Safe Machine Learning, Natural Language Processing, Logic, Information Theory
                 </div>
             </div>
 
             <div class="contact-section">
-                <h3>Contact</h3>
+                <h3>Links</h3>
                 <div class="contact-item">
                     <strong>LinkedIn</strong>
-                    <span>https://www.linkedin.com/in/yuchenalicezhang/</span>
+                    <span>linkedin.com/in/yuchenalicezhang</span>
                 </div>
                 <div class="contact-item">
                     <strong>GitHub</strong>
@@ -328,7 +262,7 @@
                 </div>
                 <div class="contact-item">
                     <strong>Website</strong>
-                    <span>https://zycalice.github.io/</span>
+                    <span>zycalice.github.io</span>
                 </div>
             </div>
         </div>
@@ -337,33 +271,63 @@
         <div class="main-content">
             <!-- About Section -->
             <div class="card">
-                <h2>About Me</h2>
-                <div class="about-text">
-                    <p>Hi! I am Yuchen Zhang, a researcher/engineer interested in Statistics, Natural Language Processing, and Machine Learning with a deep understanding of the algorithm theories. I am also passionate about detecting algorithm bias and developing models that are fair. I care deeply about science for social good and believe that our research in technology and algorithms should benefit the public in a safe and fair way.</p>
-                    <br>
-                    <p>Currently, I am a Software Engineer (Machine Learning)/Research Engineer at [Meta FAIR then GenAI], working on Trust and Safety.</p>
+                <h2>About</h2>
+                <div id="about-content" class="markdown-content">
+                    <div class="loading">Loading about content...</div>
                 </div>
             </div>
 
-            <!-- Publication Section -->
+            <!-- Publications Section -->
             <div class="card">
                 <h2>Publications</h2>
-                <div class="publications-text">
-                    <a href="https://scholar.google.com/citations?user=BQV7BOkAAAAJ&hl=en">Google Scholar</a>
+                <div id="publications-content" class="markdown-content">
+                    <div class="loading">Loading publications...</div>
                 </div>
             </div>
-            
 
             <!-- Experience Section -->
             <div class="card">
                 <h2>Experience</h2>
-                <div class="about-text">
-                    <p><strong>Meta:</strong> Llama 2+: Trust and Safety</p>
-                    <br>
-                    <p><strong>NERA economic consulting:</strong> Research and analytics for securities and finance disputes</p>
+                <div id="experience-content" class="markdown-content">
+                    <div class="loading">Loading experience...</div>
                 </div>
             </div>
+
+            <!-- Projects Section -->
+            <div class="card">
+                <h2>Experience</h2>
+                <div id="projects-content" class="markdown-content">
+                    <div class="loading">Loading experience...</div>
+                </div>
+            </div>
+
         </div>
     </div>
+
+    <script>
+        // Function to load and parse markdown files
+        async function loadMarkdown(filename, elementId) {
+            try {
+                const response = await fetch(`content/${filename}`);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                const markdown = await response.text();
+                const html = marked.parse(markdown);
+                document.getElementById(elementId).innerHTML = html;
+            } catch (error) {
+                console.error(`Error loading ${filename}:`, error);
+                document.getElementById(elementId).innerHTML = `<div class="error">Could not load ${filename}</div>`;
+            }
+        }
+
+        // Load content when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            loadMarkdown('about.md', 'about-content');
+            loadMarkdown('publications.md', 'publications-content');
+            loadMarkdown('experience.md', 'experience-content');
+            loadMarkdown('projects.md', 'projects-content');
+        });
+    </script>
 </body>
 </html>
