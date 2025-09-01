@@ -10,8 +10,8 @@
   * Expert opinion research and analysis in securities and finance disputes
 
 ### Teaching Assistance (2022 - 2024)
-* University of Pennsylvania, Course CIS521 Artificial Intelligence
+* University of Pennsylvania, CIS521 Artificial Intelligence
   * Lead home recitation, host office hours, answer posted student questions
 
-* University of Pennsylvania, Course ESE542 Stats for Data Science
+* University of Pennsylvania, ESE542 Stats for Data Science
   * Host office hours, answer posted student questions
