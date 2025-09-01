@@ -1,17 +1,17 @@
 ### Work experience
-Meta, **Research Engineer**, 2022 - Present
+* Meta, Research Engineer, 2022 - Present
   * Llama 2+; Trust and Safety, evaluations
 
-Claudius Legal Intelligence, **NLP Researcher/Engineer**, 2021 - 2022
+* Claudius Legal Intelligence, NLP Researcher/Engineer, 2021 - 2022
   * Multi-label multi-class injury category classification; NER model as a eval 
   task while fine-tuning BERT and a Claudius model
 
-NERA Economic Consulting, **Researcher/Analyst**, 2017 - 2020
+* NERA Economic Consulting, Researcher/Analyst, 2017 - 2020
   * Expert opinion research and analysis in securities and finance disputes
 
-### Teaching Assistance
-* Teaching Assistant, 2022 - 2024
-  * University of Pennsylvania, Course CIS521 Artificial Intelligence
-    * Lead home recitation, host office hours, answer posted student questions
-  * University of Pennsylvania, Course ESE542 Stats for Data Science
-    * Host office hours, answer posted student questions
+### Teaching Assistance (2022 - 2024)
+* University of Pennsylvania, Course CIS521 Artificial Intelligence
+  * Lead home recitation, host office hours, answer posted student questions
+
+* University of Pennsylvania, Course ESE542 Stats for Data Science
+  * Host office hours, answer posted student questions
