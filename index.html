@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yuchen Zhang - Personal Page</title>
+    <title>Yuchen Zhang</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.3.0/marked.min.js"></script>
     <style>
         * {
@@ -13,11 +13,11 @@
         }
 
         body {
-            font-family: 'Calibri', sans-serif;
-            line-height: 1.6;
+            font-family: Arial, sans-serif;
+            line-height: 1.5;
             color: #333;
-            background: #ffffff;
-            min-height: 100vh;
+            background: #fff;
+            margin: 0;
         }
 
         .layout {
@@ -27,7 +27,7 @@
 
         .sidebar {
             width: 400px;
-            background: #f8f9fa;
+            background: #fff;
             color: #333;
             padding: 30px 25px;
             position: fixed;
@@ -39,16 +39,16 @@
         .main-content {
             flex: 1;
             margin-left: 400px;
-            padding: 30px 40px;
-            background: #ffffff;
+            padding: 40px;
+            max-width: 800px;
         }
 
-        .profile-section {
+        .header {
             text-align: center;
             margin-bottom: 30px;
         }
 
-        .profile-img-photo {
+        .profile-img {
             width: 300px;
             height: 300px;
             border-radius: 8px;
@@ -59,25 +59,25 @@
             display: block;
         }
 
-        .sidebar h1 {
+        h1 {
             font-size: 1.8em;
             font-weight: 400;
             margin-bottom: 5px;
             color: #2c3e50;
         }
 
-        .sidebar .title {
+        .title {
             font-size: 1em;
             margin-bottom: 25px;
             color: #666;
             font-weight: 300;
         }
 
-        .contact-section, .quick-info {
+        .contact-section, .info-section {
             margin-bottom: 25px;
         }
 
-        .contact-section h3, .quick-info h3 {
+        .contact-section h3, .info-section h3 {
             font-size: 1.1em;
             margin-bottom: 15px;
             color: #2c3e50;
@@ -99,113 +99,63 @@
             font-weight: 600;
         }
 
-        .contact-item span {
+        .contact-item a {
+            color: #0066cc;
+            text-decoration: none;
             font-size: 0.9em;
             word-break: break-word;
             overflow-wrap: break-word;
+        }
+
+        .contact-item a:hover {
+            text-decoration: underline;
+        }
+
+        .info-item {
             color: #666;
+            font-size: 0.9em;
         }
 
-        .card {
-            background: white;
-            border-radius: 8px;
-            padding: 30px;
-            margin: 0 0 25px 0;
-            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-            border: 1px solid #e0e0e0;
+        .section {
+            margin-bottom: 40px;
         }
 
-        .main-content h2 {
-            color: #2c3e50;
-            margin-bottom: 20px;
-            font-size: 1.8em;
-            font-weight: 400;
-            position: relative;
-            padding-bottom: 12px;
+        h2 {
+            font-size: 1.4em;
+            margin-bottom: 15px;
+            color: #333;
         }
 
-        .main-content h2::after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 40px;
-            height: 2px;
-            background: #2c3e50;
-            border-radius: 1px;
-        }
-
-        .about-text, .markdown-content {
-            font-size: 1em;
-            line-height: 1.7;
+        .content {
             color: #555;
         }
 
-        .about-text p, .markdown-content p {
+        .content p {
             margin-bottom: 15px;
         }
 
-        .about-text strong, .markdown-content strong {
-            color: #2c3e50;
-        }
-
-        .publications-text a {
-            color: #2c3e50;
-            text-decoration: underline;
-            font-size: 1em;
-        }
-
-        .publications-text a:hover {
-            color: #1a252f;
-        }
-
-        /* Markdown-specific styling */
-        .markdown-content h1, .markdown-content h2, .markdown-content h3 {
-            color: #2c3e50;
+        .content h3 {
+            color: #333;
             margin-top: 20px;
             margin-bottom: 10px;
         }
 
-        .markdown-content ul, .markdown-content ol {
+        .content ul, .content ol {
             margin-left: 20px;
             margin-bottom: 15px;
         }
 
-        .markdown-content li {
-            margin-bottom: 5px;
-        }
-
-        .markdown-content blockquote {
-            border-left: 4px solid #2c3e50;
-            padding-left: 15px;
-            margin: 15px 0;
-            color: #666;
-            font-style: italic;
-        }
-
-        .markdown-content code {
-            background: #f8f9fa;
-            padding: 2px 4px;
-            border-radius: 3px;
-            font-family: 'Monaco', 'Consolas', monospace;
-            font-size: 0.9em;
-        }
-
-        .markdown-content pre {
-            background: #f8f9fa;
-            padding: 15px;
-            border-radius: 5px;
-            overflow-x: auto;
-            margin: 15px 0;
+        .content a {
+            color: #0066cc;
         }
 
         .loading {
-            color: #666;
+            color: #999;
             font-style: italic;
         }
 
         .error {
-            color: #d9534f;
+            color: #cc0000;
             font-style: italic;
         }
 
@@ -218,7 +168,7 @@
                 width: 100%;
                 height: auto;
                 position: relative;
-                padding: 25px 20px;
+                padding: 20px;
             }
 
             .main-content {
@@ -226,17 +176,9 @@
                 padding: 20px;
             }
 
-            .profile-img-photo {
+            .profile-img {
                 width: 150px;
                 height: 150px;
-            }
-
-            .sidebar h1 {
-                font-size: 1.6em;
-            }
-
-            .card {
-                padding: 20px;
             }
         }
     </style>
@@ -245,13 +187,13 @@
     <div class="layout">
         <!-- Left Sidebar -->
         <div class="sidebar">
-            <div class="profile-section">
-                <img src="images/profile-photo.jpg" alt="Profile Photo" class="profile-img-photo" width="300" height="300">
+            <div class="header">
+                <img src="images/profile-photo.jpg" alt="Profile Photo" class="profile-img">
                 <h1>Yuchen Zhang</h1>
                 <p class="title">Research Engineer</p>
             </div>
 
-            <div class="quick-info">
+            <div class="info-section">
                 <h3>Info</h3>
                 <div class="info-item">
                     <strong>Location</strong>
@@ -283,49 +225,49 @@
         <!-- Main Content -->
         <div class="main-content">
             <!-- About Section -->
-            <div class="card">
+            <div class="section">
                 <h2>About</h2>
-                <div id="about-content" class="markdown-content">
+                <div id="about-content" class="content">
                     <div class="loading">Loading about content...</div>
                 </div>
             </div>
 
             <!-- Publications Section -->
-            <div class="card">
+            <div class="section">
                 <h2>Publications</h2>
-                <div id="publications-content" class="markdown-content">
+                <div id="publications-content" class="content">
                     <div class="loading">Loading publications...</div>
                 </div>
             </div>
 
             <!-- Education Section -->
-            <div class="card">
+            <div class="section">
                 <h2>Education</h2>
-                <div id="education-content" class="markdown-content">
-                    <div class="loading">Loading about content...</div>
+                <div id="education-content" class="content">
+                    <div class="loading">Loading education...</div>
                 </div>
             </div>
 
             <!-- Experience Section -->
-            <div class="card">
+            <div class="section">
                 <h2>Experience</h2>
-                <div id="experience-content" class="markdown-content">
+                <div id="experience-content" class="content">
                     <div class="loading">Loading experience...</div>
                 </div>
             </div>
 
-            <!-- Experience Section -->
-            <div class="card">
+            <!-- Projects Section -->
+            <div class="section">
                 <h2>Projects</h2>
-                <div id="projects-content" class="markdown-content">
-                    <div class="loading">Loading experience...</div>
+                <div id="projects-content" class="content">
+                    <div class="loading">Loading projects...</div>
                 </div>
             </div>
         </div>
     </div>
 
     <script>
-        // Function to load and parse markdown files
+        // Load and parse markdown files
         async function loadMarkdown(filename, elementId) {
             try {
                 const response = await fetch(`content/${filename}`);
