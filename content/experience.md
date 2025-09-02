@@ -1,12 +1,11 @@
 * Meta, Research Engineer, 2022 - Present
-    * Llama 2+; Trust and Safety, evaluations
+  * Llama 2+; Trust and Safety, evaluations
 
 * Claudius Legal Intelligence, NLP Researcher/Engineer, 2021 - 2022
-    * Multi-label multi-class injury category classification; NER model as a eval
-      task while fine-tuning BERT and a Claudius model
+  * Multi-label multi-class injury category classification; NER model as a eval task while fine-tuning BERT and a Claudius model
 
 * NERA Economic Consulting, Researcher/Analyst, 2017 - 2020
-    * Expert opinion research and analysis in securities and finance disputes
+  * Expert opinion research and analysis in securities and finance disputes
 
 * Teaching Assistance, 2022 - 2024
   * University of Pennsylvania, CIS521 Artificial Intelligence

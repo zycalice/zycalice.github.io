@@ -39,7 +39,7 @@
         .main-content {
             flex: 1;
             margin-left: 400px;
-            padding: 100px;
+            padding: 100px 150px 100px 100px;
             max-width: 800px;
         }
 
@@ -118,18 +118,16 @@
 
         .section {
             margin-bottom: 40px;
-            padding-bottom: 25px;
-            border-bottom: 1px solid #e5e5e5;
-        }
-
-        .section:last-child {
-            border-bottom: none;
         }
 
         h2 {
             font-size: 1.4em;
             margin-bottom: 15px;
             color: #333;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e5e5e5;
+            width: 20px;
+            display: inline-block;
         }
 
         .content {
@@ -293,8 +291,8 @@
         document.addEventListener('DOMContentLoaded', function() {
             loadMarkdown('about.md', 'about-content');
             loadMarkdown('publications.md', 'publications-content');
-            loadMarkdown('education.md', 'education-content');
             loadMarkdown('experience.md', 'experience-content');
+            loadMarkdown('education.md', 'education-content');
             loadMarkdown('projects.md', 'projects-content');
         });
     </script>
