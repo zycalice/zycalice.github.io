@@ -1,4 +1,6 @@
-* **Meta, Research Engineer**, 2022 - Present
+* **Max Planck Institute - Intelligent Systems, Research Intern**, 2022 - 2025
+    * Generalization and emergent misalignment
+* **Meta, Research Engineer**, 2022 - 2025
     * Llama 2+; Trust and Safety, evaluations
 * **Claudius Legal Intelligence, NLP Researcher/Engineer**, 2021 - 2022
     * NER model as a eval task while fine-tuning BERT and a Claudius model
