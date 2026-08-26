@@ -1,4 +1,4 @@
-* **Max Planck Institute - Intelligent Systems, Research Intern**, 2025 - Present
+* **Max Planck Institute - Intelligent Systems, Research Intern**, 2025.12 - 2026.05
     * Generalization and emergent misalignment
 * **Meta, Research Engineer**, 2022 - 2025
     * Llama 2+; Trust and Safety, evaluations
