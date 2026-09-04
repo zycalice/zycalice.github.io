@@ -6,5 +6,5 @@ publications under my page.
 
 **Reviewer Experience**
 * NeurIPS Workshop SoLaR
-* ICML Workshop: AI for Good
+* ICML Workshop: AI for Social Good
 * COLM Ethics Reviewer
