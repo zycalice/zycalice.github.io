@@ -14,7 +14,7 @@ Meta FAIR/GenAI/MSL for 3.5 years, working on Llama/multimodal's
 Trust and Safety.
 
 Roughly, I believe in:
-* Doing the right thing, in the *right* way (for all agents)
+* Doing the right thing, in the *right* way (generally for all agents)
 * Being original
 * Being open-minded
 
