@@ -12,3 +12,11 @@ Previously, I was a Research Intern at Max Planck Institute for
 Intelligent Systems. Before this, I was a Research Engineer at 
 Meta FAIR/GenAI/MSL for 3.5 years, working on Llama/multimodal's 
 Trust and Safety.
+
+Roughly, I believe in:
+* Doing the right thing, in the *right* way (for all agents)
+* Being original
+* Being open-minded
+
+In my free time, I generally enjoy [music](https://www.youtube.com/@zycalice), hiking/being in nature, 
+and puzzles.
