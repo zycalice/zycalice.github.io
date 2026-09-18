@@ -17,6 +17,7 @@
             --panel: #f6f6f4;
             --line: #e6e6e2;
             --accent: #2251b8;
+            --sidebar-w: clamp(300px, 26vw, 420px);
             --serif: "Source Serif 4", Georgia, serif;
             --sans: "Inter", "Helvetica Neue", Arial, sans-serif;
         }
@@ -73,7 +74,7 @@
         /* ---------- Sidebar ---------- */
 
         .sidebar {
-            width: 380px;
+            width: var(--sidebar-w);
             background: var(--panel);
             padding: 64px 40px;
             position: fixed;
@@ -158,9 +159,8 @@
 
         .main-content {
             flex: 1;
-            margin-left: 380px;
-            padding: 72px 72px 80px;
-            max-width: 1000px;
+            margin-left: var(--sidebar-w);
+            padding: 72px clamp(24px, 5vw, 88px) 80px;
         }
 
         .section {
@@ -191,7 +191,10 @@
 
         .content {
             color: var(--ink-soft);
-            max-width: 68ch;
+            /* Line length grows with the window: never narrower than ~52
+               characters, tracks ~58% of the remaining width, and stops
+               at ~95 characters so very wide screens stay readable. */
+            max-width: min(100%, clamp(52ch, 58vw, 95ch));
         }
 
         .content p {
