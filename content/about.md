@@ -13,9 +13,18 @@ Intelligent Systems. Before this, I was a Research Engineer at
 Meta FAIR/GenAI/MSL for 3.5 years, working on Llama/multimodal's 
 Trust and Safety.
 
+Some of my favorite classes throughout my education:
+* Information Theory
+* Game Theory
+* Probability and Statistics
+* Convex Optimization for Statistics and Data Science
+* Principles of Deep Learning
+* Intro Psyc I:Psychobio & Cognition
+* Intro to Social and Political Philosophy
+
 Roughly, I believe in:
 * Doing the right thing, in the *right* way (generally for all agents)
-* Being original
+* Being an original and independent thinker
 * Being open-minded
 
 In my free time, I generally enjoy [music](https://www.youtube.com/@zycalice), hiking/being in nature, 
