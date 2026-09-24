@@ -1,7 +1,7 @@
 **Max Planck Institute - Intelligent Systems**, *Research Intern*, 2025.12 - 2026.05
 * [Understanding Emergent Misalignment from the perspective of SFT Generalization](https://arxiv.org/abs/2606.20814)
 
-**Meta**, *Research Engineer*, 2022 - 2025
+**Meta**, *Research Engineer/Senior Research Engineer*, 2022 - 2025
 * Llama 2+; Trust and Safety, evaluations
 * [Llama 2 Technical Report](https://arxiv.org/abs/2307.09288), [Llama 3 Technical Report](https://arxiv.org/abs/2407.21783)
 * Bias: [ROBBIE](https://arxiv.org/abs/2311.18140)
