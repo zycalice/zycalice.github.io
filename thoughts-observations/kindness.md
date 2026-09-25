@@ -1,3 +1,5 @@
+# What Do I Mean When I Say "kindness"
+
 The dictionary definition of “kind” gives us:
 
 1a. of a sympathetic or helpful nature  
