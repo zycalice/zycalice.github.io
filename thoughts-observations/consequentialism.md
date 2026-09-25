@@ -5,9 +5,9 @@ but a strong deterrence in other conditions. I want to document the conditions a
 
 * For consequentialism: 
   * self/personal growth/regulation
-  * (institutions/governance with 1) a narrow and clear goal *and* 2) clear individual consents) 
+  * (institutions/governance with 1) a narrow and clear goal *and* 2) clear individual consents with full information) 
 * Against consequentialism: 
-  * institutions/governance with either a broad, unclear goal *or* unclear individual consents
+  * institutions/governance with either a broad, unclear goal *or* unclear individual consents with full information
 
 Why this matters? It has to do with who can define what the goal is for consequentialism. 
 When you are dealing with personal improvements, you are often the one with accurate access of your goals and preferences.
