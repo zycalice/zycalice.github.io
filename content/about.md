@@ -29,3 +29,11 @@ Roughly, I believe in:
 
 In my free time, I generally enjoy [music](https://www.youtube.com/@zycalice), hiking/being in nature, 
 and puzzles.
+
+I often realized when I am asked on the spot about my views, I am bad at explaining myself clearly. 
+Here I have started to practice writing down some of my current thoughts: https://github.com/zycalice/zycalice.github.io/tree/main/thoughts-observations.
+I should update these from time to time as my belief change, and welcome comments or discussions on anything.
+
+I often notice people generally separate views into "two opposing camps", but there is often something more fundamental that resolves
+the "two camps" on the surface level and expose the commonality between the views. 
+I often find it intriguing and have the urge to find those commonalities.
