@@ -23,7 +23,7 @@ To be kind is, in part, to be fair and to honor the principle of truth-seeking. 
 Another situation I often think about is pointing out mistakes in others.
 
 Kindness allows us to respond in a way that is proportional to the mistake, while keeping helpfulness in mind. If the purpose of pointing out a mistake is to correct it, help someone improve, or make progress toward a shared goal, then an emotionally disproportionate response is usually not very helpful or net positive.
-Kindness can still be direct, serious, or firm. The important question is whether the response is proportionate and useful rather than unnecessarily harmful.
+Kindness can still be direct, serious, or firm. The important question is whether the response is proportionate and useful rather than unnecessarily harmful. Otherwise, you would be hiding a emotional control problem under that umbrella term of "directness".
 Kindness thus foster effective communication/collaboration and make things more efficient.
 
 It is worth noting that the situations I naturally associate with kindness do not usually include what I might call “positive” or passive kindness. By this, I mean situations in which you benefit someone else at some cost to yourself, with that cost ranging from minor inconvenience to significant personal sacrifice.
