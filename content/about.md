@@ -28,7 +28,7 @@ In my free time, I generally enjoy [music](https://www.youtube.com/@zycalice), h
 and puzzles.
 
 
-*Views*
+**Views**
 
 Roughly, I believe in:
 * Doing the right thing, in the *right* way (generally for all agents)
