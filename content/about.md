@@ -1,3 +1,4 @@
+# Background
 Hi! I am Yuchen Zhang, a researcher interested in Trustworthy and Safe AI.
 I am particularly curious in fundamental understanding of how AI learns 
 representations of the world, and see if we can better use these representations
@@ -22,13 +23,15 @@ Some of my favorite classes throughout my education:
 * Intro Psyc I:Psychobio & Cognition
 * Intro to Social and Political Philosophy
 
+In my free time, I generally enjoy [music](https://www.youtube.com/@zycalice), hiking/being in nature, 
+and puzzles.
+
+
+# Views
 Roughly, I believe in:
 * Doing the right thing, in the *right* way (generally for all agents)
 * Being an original and independent thinker
 * Being open-minded
-
-In my free time, I generally enjoy [music](https://www.youtube.com/@zycalice), hiking/being in nature, 
-and puzzles.
 
 I often realized when I am asked on the spot about my views, I am bad at explaining myself clearly. 
 Here I have started to practice writing down some of my current thoughts: https://github.com/zycalice/zycalice.github.io/tree/main/thoughts-observations.
