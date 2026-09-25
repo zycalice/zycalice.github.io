@@ -34,7 +34,7 @@ Roughly, I believe in:
 * Being open-minded
 
 I often realized when I am asked on the spot about my views, I am bad at explaining myself clearly. 
-Here I have started to practice writing down some of my current thoughts: https://github.com/zycalice/zycalice.github.io/tree/main/thoughts-observations.
+Here I have started to practice writing down some of my [current thoughts](https://github.com/zycalice/zycalice.github.io/tree/main/thoughts-observations).
 I should update these from time to time as my belief change, and welcome comments or discussions on anything.
 
 I often notice people generally separate views into "two opposing camps", but there is often something more fundamental that resolves
