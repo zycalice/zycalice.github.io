@@ -1,4 +1,4 @@
-# Background
+*Background*
 Hi! I am Yuchen Zhang, a researcher interested in Trustworthy and Safe AI.
 I am particularly curious in fundamental understanding of how AI learns 
 representations of the world, and see if we can better use these representations
@@ -27,7 +27,7 @@ In my free time, I generally enjoy [music](https://www.youtube.com/@zycalice), h
 and puzzles.
 
 
-# Views
+*Views*
 Roughly, I believe in:
 * Doing the right thing, in the *right* way (generally for all agents)
 * Being an original and independent thinker
