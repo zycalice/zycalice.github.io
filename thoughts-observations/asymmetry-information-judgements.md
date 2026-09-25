@@ -14,7 +14,7 @@ Some are obvious, and some are not.
 
 There are two types of "asymmetry" of information.
 * Unfortunately, people are not always comfortable sharing these past experiences and circumstances due to privacy concerns, so they may remain hidden information to others.
-* Even when you know about these reasons,  you would probably immediately understand what these means to that person. These are more “hidden information” in a way that are not inputs to your current world model.
+* Even when you know about these reasons,  you probably would not immediately understand what these means to that person. These are more “hidden information” in a way that are not inputs to your current world model.
 
 In Chinese, “未经他人苦，莫劝他人善,” which means, “Without experiencing or understanding another person’s suffering, do not urge them to show virtue or forgiveness.”
 In the book The Great Gatsby: “Whenever you feel like criticizing any one,” he told me, “just remember that all the people in this world haven’t had the advantages that you’ve had.”
