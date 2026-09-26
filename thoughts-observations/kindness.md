@@ -28,6 +28,7 @@ Kindness thus foster effective communication/collaboration and make things more 
 
 It is worth noting that the situations I naturally associate with kindness do not usually include what I might call “positive” or passive kindness. By this, I mean situations in which you benefit someone else at some cost to yourself, with that cost ranging from minor inconvenience to significant personal sacrifice.
 I generally do not have strong views that there are—or should be—universal guidelines governing those kinds of positive actions. Questions involving generosity, sacrifice, obligation, and personal boundaries seem more situational to me.
+Also note that these situations do not actively include strategic interactions from both sides.
 
 I plan to write about that separately.
 
