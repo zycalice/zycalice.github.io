@@ -1,7 +1,7 @@
 # AI Safety Debate
 **By Yuchen Zhang**
 
-Recent frontier AI securities breaches sparked debates among different communities on the topic of AI Safety.
+Recent frontier AI security issues sparked debates among different communities on the topic of AI Safety.
 
 I wanted to write down some thoughts that I observe many discussions could be missing:
 1. Two concerns about AI:
