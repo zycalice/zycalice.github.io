@@ -17,12 +17,10 @@ In my view, an act that can be described as “kind” from the outside is not n
 
 This means that action-based kindness can be independent of sincerity: a person can perform an apparently kind action while being fake, manipulative, or motivated primarily by self-interest. True kindness, by contrast, is incompatible with that kind of falseness. It is not simply about making other people feel good, nor is it about appearing generous in order to gain something for oneself.
 
-When I think of kindness, one of the first situations I think about is how we judge others.
-
+**When I think of kindness, one of the first situations I think about is how we judge others.**
 To be kind is, in part, to be fair and to honor the principle of truth-seeking. Acknowledging that “there might be something I don’t know about this person” makes our judgments less likely to be wrong. Kindness here does not mean blindly assuming the best of someone. It means recognizing uncertainty and avoiding conclusions that go beyond what we actually know.
 
-Another situation I often think about is pointing out mistakes in others.
-
+**Another situation I often think about is pointing out mistakes in others.**
 Kindness allows us to respond in a way that is proportional to the mistake, while keeping helpfulness in mind. If the purpose of pointing out a mistake is to correct it, help someone improve, or make progress toward a shared goal, then an emotionally disproportionate response is usually not very helpful or net positive.
 Kindness can still be direct, serious, or firm. The important question is whether the response is proportionate and useful rather than unnecessarily harmful. Otherwise, you would be hiding a emotional control problem under that umbrella term of "directness".
 Kindness thus foster effective communication/collaboration and make things more efficient.
