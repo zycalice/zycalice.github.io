@@ -1,4 +1,5 @@
 # What Do I Mean When I Say "kindness"
+**By Yuchen Zhang**
 
 The dictionary definition of “kind” gives us:
 

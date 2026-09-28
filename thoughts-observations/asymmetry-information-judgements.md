@@ -1,4 +1,5 @@
 # Asymmetry of Information and the Danger of Quick Judgements on Others
+**By Yuchen Zhang**
 
 I have repeatedly seen comments from A to B about a choice that seems inconsistent with B’s perceived values. “B should quit her job if B is not happy with the job, and the job is causing her mental health issues.”
 

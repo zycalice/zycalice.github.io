@@ -1,4 +1,5 @@
 # Consequentialism - by Whom and for Whom?
+**By Yuchen Zhang**
 
 Over the years I have noticed that I have a very strong bias for consequentialism in some conditions (a bit inevitable being partially raised up in a country with a lot of people), 
 but a strong deterrence in other conditions. I want to document the conditions and why I separate them.
