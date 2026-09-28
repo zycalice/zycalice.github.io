@@ -14,4 +14,4 @@ I wanted to write down some thoughts that I observe many discussions could be mi
 2. We (or at least I was) are probably underestimating how much capital and power still want to do 1. and give models lots of execution power and decision-making power, even though we *know* they are not 100% reliable.
 3. If the ultimate goal is the final impact of making AI safe, it seems to me that it is not a good idea to keep arguments that divide people into camps. Topics that are not about the actual problem-solving discussions from non-serious people are bad distractions to engage with. 
    * Discussing character attributions on certain communities ignore the actual underlying issue.
-   * Skip score-keeping also wouldn't really help the problems.
+   * Score-keeping also wouldn't really help the problems.
