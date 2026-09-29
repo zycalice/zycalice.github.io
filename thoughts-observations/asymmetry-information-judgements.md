@@ -22,4 +22,4 @@ In the book The Great Gatsby: “Whenever you feel like criticizing any one,” 
 
 If you ask someone, “Is it possible that you cannot model others very well due to information asymmetry?” they will likely say yes. However, people are still doing it badly. But they may also have never been exposed to a different way, and their previous model may have always worked.
 
-It’s human nature to make judgments based on limited information, but being aware that you may be missing information, and that you may have encountered new, unseen data, is a net positive. nature to make judgments based on limited information, but being aware that you may be missing *private* information, and that you may have encountered new, unseen data, is a net positive.
+It is human nature to make judgments based on limited information, but being aware that you may be missing information, and that you may have encountered new, unseen data, is a net positive. nature to make judgments based on limited information, but being aware that you may be missing *private* information, and that you may have encountered new, unseen data, is a net positive.
